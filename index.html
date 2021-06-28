@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="author" content="evua">
+    <title>成长不停步</title>
+    <link rel="stylesheet" href="//common.yscase.com/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css?v=6000" type="text/css" />
+    <script>
+        (function() {
+            var _width = 750;
+            var ua = navigator.userAgent;
+            if (/Android (\d+\.\d+)/.test(ua)) {
+                var version = parseFloat(RegExp.$1);
+                if (version > 2.3) {
+                    document.write('<meta name="viewport" content="width=' + _width +
+                        ',user-scalable=no,target-densitydpi=device-dpi,minimal-ui">')
+                } else {
+                    document.write('<meta name="viewport" content="width=' + _width +
+                        ',target-densitydpi=device-dpi">')
+                }
+            } else if (/QQAC_Client_iOS/.test(ua)) {
+                document.write('<meta name="viewport" content="width=' + _width +
+                    ',maximum-scale=0.5,minimum-scale=0.5">');
+            } else {
+                document.write('<meta name="viewport" content="width=' + _width +
+                    ',user-scalable=no,target-densitydpi=device-dpi,minimal-ui">');
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="content">
+        <img src="./image/back.jpg?v=400" class="back">
+        <div class="homepage_one show">
+            <div class="homepage_onebox">
+                <img src="./image/p1.png?v=400" alt="" class="p1">
+                <div class="box">
+                    <img src="./image/p2.png?v=400" alt="">
+                    <img src="./image/p3.png?v=400" alt="">
+                    <img src="./image/p4.png?v=400" alt="">
+                    <img src="./image/p5.png?v=400" alt="">
+                    <!-- <img src="./image/p6.png?v=400" alt=""> -->
+                </div>
+                <img src="./image/p7.png?v=400" alt="" class="p7">
+            </div>
+        </div>
+        <div class="homepage_two none">
+            <img src="./image/p8.png?v=400" alt="" class="p8">
+            <img src="./image/p9.png?v=400" alt="" class="p9">
+            <div class="box">
+                <div class="mapbox">
+                    <img src="./image/map.png?v=400" alt="" class="map">
+                    <div class="tree none">
+                        <img src="./image/icon2.png?v=400" alt="">
+                    </div>
+                    <div class="maptreebox">
+
+                    </div>
+                </div>
+            </div>
+            <img src="./image/p14.png?v=400" alt="" class="p14 none">
+            <img src="./image/p10.png?v=400" alt="" class="p10 show">
+            <img src="./image/p16.png?v=400" alt="" class="p16">
+            <img src="./image/p11.png?v=400" alt="" class="p11">
+            <div class="tips none">
+                <p>您是第 <span class="num"></span> 位点亮小树的丰台新教师</p>
+            </div>
+            <div class="share none">
+                <img src="image/1.jpg?v=400" alt="">
+            </div>
+        </div>
+        <div class="homepage_three none">
+            <div class="box">
+                <img src="./image/p2.png?v=400" alt="" class="p2">
+                <img src="./image/p12.png?v=400" alt="" class="p12">
+                <div class="form">
+                    <img src="./image/p13.png?v=400" alt="" class="p13">
+                    <div class="namebox">
+                        <input type="text" name="name" class="name" id='name'>
+                    </div>
+                    <div class="companybox">
+                        <input type="text" name="company" class="company" id='company'>
+                    </div>
+                    <div class="flagbox">
+                        <textarea name="flag" class="flag" id='flag'></textarea>
+                    </div>
+                </div>
+                <img src="./image/p7.png?v=400" alt="" class="p7">
+            </div>
+        </div>
+    </div>
+    <div class="music">
+        <img src="./image/p18.png?v=400" alt="">
+        <img src="./image/p19.png?v=400" alt="" class="musicicon">
+        <audio src="./media/back.mp3?v=400" id='audio'></audio>
+    </div>
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    <script src="//common.yscase.com/js/WechatJSSDK.js"></script>
+    <script src="js/hammer.js"></script>
+    <script src="js/index.js?v=7000"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?031f19ecafbb28d700692f4f8b6119a0";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>
